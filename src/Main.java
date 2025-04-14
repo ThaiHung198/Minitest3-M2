@@ -145,7 +145,7 @@ public class Main {
         if (count == 0) {
             System.out.println("Không tìm thấy sách viễn tưởng nào có giá < " + maxPrice + ".");
         }else {
-            System.out.println("=> Tổng số sách viễn tưởng giá <" + maxPrice + "." + count);
+            System.out.println("=> Tổng số sách viễn tưởng giá <" + maxPrice + ": " + count);
         }
     }
     public static void calculateTotalPrice(Book[] books) {
